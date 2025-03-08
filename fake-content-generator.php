@@ -1,9 +1,10 @@
 <?php
 /**
  * Plugin Name: Fake Content Generator
+ * Plugin URI: https://github.com/HoseinPirhadi/Fake-Content-Generator
  * Description: Generates fake posts or products for testing themes and sites.
  * Version: 1.0
- * Author: Your Name
+ * Author: Hosein Pirhadi
  * Text Domain: fake-content-generator
  * Domain Path: /languages
  */
