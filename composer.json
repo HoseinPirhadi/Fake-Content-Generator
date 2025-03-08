@@ -1,0 +1,11 @@
+{
+    "require": {
+        "fakerphp/faker": "^1.24",
+        "jfakerphp/faker": "^1.0"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
