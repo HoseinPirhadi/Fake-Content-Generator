@@ -2,62 +2,62 @@
 
 <p style="text-align: center"><img src="https://github.com/FakerPHP/Artwork/raw/main/src/socialcard.png" alt="Social card of FakerPHP"></p>
 
-## توضیحات
-**Fake Content Generator** یک افزونه وردپرسی قدرتمند است که به شما این امکان را می‌دهد تا به راحتی محتوای جعلی و تصادفی برای تست و توسعه وب‌سایت‌های خود ایجاد کنید. این افزونه به‌ویژه برای توسعه‌دهندگان و طراحان وب مفید است که نیاز به داده‌های واقعی برای آزمایش و ارزیابی دارند.
+## Description
+**Fake Content Generator** is a powerful WordPress plugin that allows you to easily create fake and random content for testing and developing your websites. This plugin is especially useful for developers and web designers who need real-like data for testing and evaluation.
 
-با استفاده از این افزونه، می‌توانید به سادگی داده‌هایی مانند نام، ایمیل، متن و سایر اطلاعات مورد نیاز خود را تولید کنید و به این ترتیب فرآیند توسعه و تست وب‌سایت خود را تسهیل کنید.
+With this plugin, you can effortlessly generate data such as names, emails, text, and other necessary information, thereby streamlining your website development and testing process.
 
-## ویژگی‌ها
-- تولید داده‌های تصادفی شامل نام، ایمیل، متن و غیره
-- سازگاری با وردپرس و استفاده آسان در پروژه‌های مختلف
-- سازگاری با PHP >= 7.4
+## Features
+- Generates random data including names, emails, text, etc.
+- Compatible with WordPress and easy to use in various projects
+- Requires PHP >= 7.4
 
-## نصب
-برای نصب این افزونه، مراحل زیر را دنبال کنید:
+## Installation
+To install this plugin, follow these steps:
 
-1. مخزن را کلون کنید:
+1. Clone the repository:
    ```bash
    git clone https://github.com/HoseinPirhadi/Fake-Content-Generator.git
    ```
 
-2. به دایرکتوری پروژه بروید:
+2. Navigate to the project directory:
    ```bash
    cd Fake-Content-Generator
    ```
 
-3. وابستگی‌ها را نصب کنید:
+3. Install dependencies:
    ```bash
    composer install
    ```
 
-4. افزونه را در پنل مدیریت وردپرس فعال کنید.
+4. Activate the plugin in the WordPress admin panel.
 
-## استفاده
-برای استفاده از این افزونه، می‌توانید از کلاس‌ها و متدهای موجود در پروژه استفاده کنید. به عنوان مثال، برای تولید داده‌های تصادفی با استفاده از کتابخانه Faker، می‌توانید از کد زیر استفاده کنید:
+## Usage
+To use this plugin, you can utilize the classes and methods available in the project. For example, to generate random data using the Faker library, you can use the following code:
 
 ```php
 <?php
 require_once 'vendor/autoload.php';
 
-// استفاده از کارخانه برای ایجاد یک نمونه از Faker\Generator
+// Use the factory to create a Faker\Generator instance
 $faker = Faker\Factory::create();
 
-// تولید داده‌ها با فراخوانی متدها
+// Generate data by calling methods
 echo $faker->name(); // 'Vince Sporer'
 echo $faker->email(); // 'walter.sophia@hotmail.com'
 echo $faker->text(); // 'Numquam ut mollitia at consequuntur inventore dolorem.'
 ```
 
-هر بار که متد `$faker->name()` را فراخوانی کنید، یک نتیجه تصادفی متفاوت دریافت خواهید کرد.
+Each time you call the `$faker->name()` method, you will receive a different random result.
 
-## مستندات
-مستندات کامل این پروژه را می‌توانید در [fakerphp.github.io](https://fakerphp.github.io) مشاهده کنید.
+## Documentation
+Full documentation for this project can be found at [fakerphp.github.io](https://fakerphp.github.io).
 
-## مشارکت
-اگر می‌خواهید در این پروژه مشارکت کنید، لطفاً یک درخواست کشش (pull request) ارسال کنید. ما از هر گونه مشارکت و بازخورد استقبال می‌کنیم.
+## Contribution
+If you would like to contribute to this project, please submit a pull request. We welcome any contributions and feedback.
 
-## مجوز
-این پروژه تحت مجوز MIT منتشر شده است. برای جزئیات بیشتر به فایل [`LICENSE`](LICENSE) مراجعه کنید.
+## License
+This project is released under the MIT License. For more details, please refer to the [`LICENSE`](LICENSE) file.
 
-## پشتیبانی
-برای هرگونه سوال یا مشکل، لطفاً با ما تماس بگیرید یا در بخش Issues در GitHub سوالات خود را مطرح کنید.
+## Support
+For any questions or issues, please contact us or raise your queries in the Issues section on GitHub.
